@@ -48,4 +48,21 @@ public class Calcular {
              return num+suma(num-1);
          }
      }
-}
+     public int impares(int num1, int num2){
+         int  impares=0;
+         for (int  i = num1; i <= num2; i++){
+             if(i%2!=0){
+                 impares++;
+             }
+         }
+         return impares;
+     }
+     public class ConversorPesosADolar {
+    public static double convertirPesosADolares(double valorDolar, double cantidadPesos) {
+        double equivalenteEnDolares = cantidadPesos / valorDolar;
+        return equivalenteEnDolares;
+    }
+    }
+   
+
+     }

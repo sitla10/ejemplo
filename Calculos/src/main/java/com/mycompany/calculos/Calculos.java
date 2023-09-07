@@ -17,7 +17,15 @@ public class Calculos {
         System.out.println(cl.elMenor(2, 3, 1));
         System.out.println("Numeros pares= "+cl.cantidadPares(10));
         System.out.println("Sumatoria= "+cl.sumatoria(10));
-        System.out.println("suma=+"cl.suma(0));
+        System.out.println("suma="+cl.suma(10));
+       
+        double valorDolar = 20.0; // Cambia este valor al valor actual del dólar
+        double cantidadPesos = 1000.0; // Cambia esta cantidad según tus necesidades
+        
+        double equivalenteEnDolares = convertirPesosADolares(valorDolar, cantidadPesos);
+        
+        System.out.println(cantidadPesos + " pesos equivalen a " + equivalenteEnDolares + " dólares.");
+
     }
 }
 
