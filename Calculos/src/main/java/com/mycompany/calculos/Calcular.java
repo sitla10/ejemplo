@@ -57,12 +57,8 @@ public class Calcular {
          }
          return impares;
      }
-     public class ConversorPesosADolar {
-    public static double convertirPesosADolares(double valorDolar, double cantidadPesos) {
-        double equivalenteEnDolares = cantidadPesos / valorDolar;
-        return equivalenteEnDolares;
-    }
+    
     }
    
 
-     }
+     
